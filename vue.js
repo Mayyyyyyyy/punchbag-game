@@ -1,0 +1,19 @@
+new Vue({
+    el:'#app',
+    data:{
+        progress:100,
+        ended:false
+    },
+    methods:{
+        punch:function(){
+           this.progress-=10;
+           if(this.progress<=0){
+               this.ended=true;
+           }
+        },
+        restart:function(){
+            this.progress=100,
+            this.ended=false
+        }
+    }
+})

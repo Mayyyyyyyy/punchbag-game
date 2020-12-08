@@ -1,0 +1,44 @@
+#app{
+    width:100vw;
+    height: 100vh;
+    background: rgb(40, 58, 40);
+}
+
+#end{
+    width:200px;
+    height:500px;
+    background: url(./bag.png) center no-repeat;
+    margin:0 auto;
+    
+}
+
+#end.end{
+    background: url(./bag-burst.png) center no-repeat;
+}
+
+#game{
+    width:200px;
+    margin:0 auto;
+    border: 1px solid black;
+}
+
+#game div{
+    height: 20px;
+    background: rosybrown;
+    
+}
+
+#controls{
+    width: 200px;
+    height:30px;
+    margin:20px auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+button{
+    padding:0 10px;
+    background: rgb(0, 0, 0);
+    color: white;
+    margin:0 10px;
+}
